@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.todo-card-container {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.user-todos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-title {
+  font-size: 20px;
+  color: #000000;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+.delete-button {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .todo-title {
+  font-size: 15px;
+  color: #000000;
+  padding-right: 25px;
+  padding-top: 0px;
+}
+
+.delete-button {
+  font-size: 12px;
+}
+}

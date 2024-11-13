@@ -1,0 +1,36 @@
+/* Write your CSS here */
+* {
+  margin-top: 0px;
+}
+.app-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.app_card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+.list-container {
+  padding: 0px;
+}
+.title {
+  text-align: center;
+  color: #ff8542;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 25px;
+  }
+}
